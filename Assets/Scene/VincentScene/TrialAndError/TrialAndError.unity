@@ -123,6 +123,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &291285000 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1016760943299620131, guid: 636af377be9d1194c94c019d9549a448, type: 3}
+  m_PrefabInstance: {fileID: 807034031}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &552980171 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7269848818370557287, guid: 636af377be9d1194c94c019d9549a448, type: 3}
@@ -320,6 +325,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 204955477991941076, guid: 636af377be9d1194c94c019d9549a448, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 204955477991941076, guid: 636af377be9d1194c94c019d9549a448, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 291285000}
+    - target: {fileID: 204955477991941076, guid: 636af377be9d1194c94c019d9549a448, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 204955477991941076, guid: 636af377be9d1194c94c019d9549a448, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 204955477991941076, guid: 636af377be9d1194c94c019d9549a448, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 290230355668753717, guid: 636af377be9d1194c94c019d9549a448, type: 3}
       propertyPath: m_Name
       value: write
@@ -435,7 +460,9 @@ PrefabInstance:
     - {fileID: 8520821261412077310, guid: 636af377be9d1194c94c019d9549a448, type: 3}
     - {fileID: 1370907098177723302, guid: 636af377be9d1194c94c019d9549a448, type: 3}
     - {fileID: 7126840092221381536, guid: 636af377be9d1194c94c019d9549a448, type: 3}
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 5092346510849505017, guid: 636af377be9d1194c94c019d9549a448, type: 3}
+    - {fileID: 7051124013970219961, guid: 636af377be9d1194c94c019d9549a448, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 3322299514667155817, guid: 636af377be9d1194c94c019d9549a448, type: 3}
