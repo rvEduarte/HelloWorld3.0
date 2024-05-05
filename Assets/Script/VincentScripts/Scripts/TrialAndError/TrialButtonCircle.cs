@@ -17,7 +17,7 @@ public class TrialButtonCircle : MonoBehaviour
     public CanvasRenderer yourString;
     public CanvasRenderer yourX;
 
-    public bool clicked;
+    public bool clicked = true;
     public bool condition;
 
     void Start()
@@ -85,7 +85,8 @@ public class TrialButtonCircle : MonoBehaviour
 
             CanvasRenderer canvasRenderer999 = yourX.GetComponent<CanvasRenderer>();
             canvasRenderer999.cull = true;
-        }else if(clicked == false)
+        }
+        else if(clicked == false)
         {
             Debug.Log("PEPE");
             CanvasRenderer canvasRenderer1 = yourDraggable1.GetComponent<CanvasRenderer>();
@@ -129,6 +130,17 @@ public class TrialButtonCircle : MonoBehaviour
         //yourCanvas = canvasRenderer;
         // yourCanvas.cull = true;
         //GetComponent<CanvasRenderer>().cull = true;
+
+        if(clicked == true)
+        {
+            clicked = false;
+            return;
+        }
+        else if(clicked == false)
+        {
+            clicked = true;
+            return;
+        }
 
 
     }

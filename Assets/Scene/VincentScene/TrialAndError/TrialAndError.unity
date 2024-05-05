@@ -471,7 +471,7 @@ MonoBehaviour:
   yourCanvas: {fileID: 170325900440011571}
   yourString: {fileID: 213767644705018318}
   yourX: {fileID: 4261597100145853825}
-  clicked: 1
+  clicked: 0
   condition: 0
 --- !u!1 &1182082788 stripped
 GameObject:
