@@ -15,7 +15,7 @@ public class TrialButtonCircle : MonoBehaviour
 
     public CanvasRenderer yourCanvas;
     public CanvasRenderer yourString;
-    public CanvasRenderer yourButtonX;
+    public CanvasRenderer yourX;
 
     void Start()
     {
@@ -61,7 +61,7 @@ public class TrialButtonCircle : MonoBehaviour
         CanvasRenderer canvasRenderer8 = yourString.GetComponent<CanvasRenderer>();
         canvasRenderer8.cull = true;
 
-        CanvasRenderer canvasRenderer9 = yourButtonX.GetComponent<CanvasRenderer>();
-        canvasRenderer9.cull = true;
+        CanvasRenderer canvasRenderer999 = yourX.GetComponent<CanvasRenderer>();
+        canvasRenderer999.cull = true;
     }
 }

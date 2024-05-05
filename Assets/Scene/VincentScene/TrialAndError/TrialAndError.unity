@@ -145,7 +145,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2bb6572f3cb6ebc4780eecea88f2aa91, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Gunportal: {fileID: 0}
+  Gunportal: {fileID: 807034032}
 --- !u!61 &552980178
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -240,7 +240,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2bb6572f3cb6ebc4780eecea88f2aa91, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Gunportal: {fileID: 0}
+  Gunportal: {fileID: 807034032}
 --- !u!61 &581442197
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -308,7 +308,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2bb6572f3cb6ebc4780eecea88f2aa91, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Gunportal: {fileID: 0}
+  Gunportal: {fileID: 807034032}
 --- !u!61 &595683019
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -459,6 +459,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 815365016178228966, guid: 636af377be9d1194c94c019d9549a448, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1016760943299620131, guid: 636af377be9d1194c94c019d9549a448, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -515,6 +519,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4126178189870651438, guid: 636af377be9d1194c94c019d9549a448, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4483928677662508048, guid: 636af377be9d1194c94c019d9549a448, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -557,6 +565,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7646965577638531609, guid: 636af377be9d1194c94c019d9549a448, type: 3}
       propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7854032317460845040, guid: 636af377be9d1194c94c019d9549a448, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
@@ -746,7 +758,7 @@ MonoBehaviour:
   yourDrop2: {fileID: 1288073196}
   yourCanvas: {fileID: 6279429}
   yourString: {fileID: 1341543836}
-  yourButtonX: {fileID: 2112698516}
+  yourButtonXXX: {fileID: 2112698516}
 --- !u!114 &1141084963 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 204955477991941076, guid: 636af377be9d1194c94c019d9549a448, type: 3}
