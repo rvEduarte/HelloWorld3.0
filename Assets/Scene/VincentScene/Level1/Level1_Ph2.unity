@@ -5090,6 +5090,7 @@ GameObject:
   - component: {fileID: 6455820408446352432}
   - component: {fileID: 2715718555948816101}
   - component: {fileID: 7591796666555440024}
+  - component: {fileID: 8890583068221897350}
   m_Layer: 0
   m_Name: Options Button
   m_TagString: Untagged
@@ -12295,7 +12296,7 @@ Transform:
   m_GameObject: {fileID: 8119598134019380289}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -665.14075, y: 312.52814, z: -1.3763049}
+  m_LocalPosition: {x: -664.4, y: 312.4, z: -1.3763049}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -24933,6 +24934,7 @@ GameObject:
   - component: {fileID: 7208154443086087377}
   - component: {fileID: 5777226653111201825}
   - component: {fileID: 6753596793049382157}
+  - component: {fileID: 7208154443086087378}
   m_Layer: 5
   m_Name: RestartButton
   m_TagString: Untagged
@@ -26301,6 +26303,7 @@ GameObject:
   - component: {fileID: 3317932226470034229}
   - component: {fileID: 6382305192288473737}
   - component: {fileID: 5320192030706795597}
+  - component: {fileID: 6382305192288473738}
   m_Layer: 0
   m_Name: Exit Button
   m_TagString: Untagged
@@ -31811,6 +31814,7 @@ GameObject:
   - component: {fileID: 401029921480427735}
   - component: {fileID: 3486957280821589045}
   - component: {fileID: 5057218580228574020}
+  - component: {fileID: 6615974958279861210}
   m_Layer: 5
   m_Name: Play Button
   m_TagString: Untagged
@@ -33170,6 +33174,19 @@ MonoBehaviour:
           m_StringArgument: My Main Scene
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &6382305192288473738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5328801196154953822}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e145627a805fde49bbd2fd2fd954059, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shooting: {fileID: 6780273579018449241, guid: 5f371dc691e971448b21f1a9f2093cb3, type: 3}
 --- !u!1 &6386806805771673059
 GameObject:
   m_ObjectHideFlags: 0
@@ -38166,6 +38183,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5433223677243385608}
   m_CullTransparentMesh: 1
+--- !u!114 &6615974958279861210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5433223677243385608}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e145627a805fde49bbd2fd2fd954059, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shooting: {fileID: 6780273579018449241, guid: 5f371dc691e971448b21f1a9f2093cb3, type: 3}
 --- !u!199 &6638073081953666306
 ParticleSystemRenderer:
   serializedVersion: 6
@@ -39167,6 +39197,7 @@ GameObject:
   - component: {fileID: 6008722864222167013}
   - component: {fileID: 9201270760867556565}
   - component: {fileID: 3903379511649528460}
+  - component: {fileID: 9201270760867556566}
   m_Layer: 5
   m_Name: menu
   m_TagString: Untagged
@@ -39253,6 +39284,19 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &7208154443086087378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4281505932180269486}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e145627a805fde49bbd2fd2fd954059, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shooting: {fileID: 6780273579018449241, guid: 5f371dc691e971448b21f1a9f2093cb3, type: 3}
 --- !u!114 &7269399556611632209
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40525,6 +40569,7 @@ GameObject:
   - component: {fileID: 7038454203605809409}
   - component: {fileID: 3688236854351796866}
   - component: {fileID: 7097021700945446202}
+  - component: {fileID: 9025894752561093604}
   m_Layer: 5
   m_Name: Pause Button
   m_TagString: Untagged
@@ -41421,6 +41466,19 @@ RectTransform:
   m_AnchoredPosition: {x: 28.58783, y: -65.2854}
   m_SizeDelta: {x: 169.4261, y: 56.5656}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &8890583068221897350
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 204354558416063114}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e145627a805fde49bbd2fd2fd954059, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shooting: {fileID: 6780273579018449241, guid: 5f371dc691e971448b21f1a9f2093cb3, type: 3}
 --- !u!225 &8929792228841931929
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -41655,6 +41713,19 @@ RectTransform:
   m_AnchoredPosition: {x: -238.28793, y: 178.32056}
   m_SizeDelta: {x: 74.2026, y: 67.3809}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &9025894752561093604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8075347620902182997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e145627a805fde49bbd2fd2fd954059, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shooting: {fileID: 6780273579018449241, guid: 5f371dc691e971448b21f1a9f2093cb3, type: 3}
 --- !u!1 &9036443519960011897
 GameObject:
   m_ObjectHideFlags: 0
@@ -46532,6 +46603,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2bd720d543da466429e66285a06c01bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &9201270760867556566
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7143956435565298413}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e145627a805fde49bbd2fd2fd954059, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shooting: {fileID: 6780273579018449241, guid: 5f371dc691e971448b21f1a9f2093cb3, type: 3}
 --- !u!198 &9205858079410276780
 ParticleSystem:
   m_ObjectHideFlags: 0
