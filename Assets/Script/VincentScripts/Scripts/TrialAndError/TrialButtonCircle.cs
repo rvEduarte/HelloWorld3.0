@@ -18,41 +18,11 @@ public class TrialButtonCircle : MonoBehaviour
     public CanvasRenderer yourString;
     //public CanvasRenderer yourX;
 
-
     public bool clicked = true;
     public bool condition;
 
     void Start()
     {
-        /*CanvasRenderer canvasRenderer1 = yourDraggable1.GetComponent<CanvasRenderer>();
-        canvasRenderer1.cull = false;
-
-        CanvasRenderer canvasRenderer2 = yourDraggable2.GetComponent<CanvasRenderer>();
-        canvasRenderer2.cull = true;
-
-        CanvasRenderer canvasRenderer3 = yourDraggable3.GetComponent<CanvasRenderer>();
-        canvasRenderer3.cull = true;
-
-        CanvasRenderer canvasRenderer4 = yourDraggable4.GetComponent<CanvasRenderer>();
-        canvasRenderer4.cull = true;
-
-        CanvasRenderer canvasRenderer5 = yourDrop1.GetComponent<CanvasRenderer>();
-        canvasRenderer5.cull = true;
-
-        CanvasRenderer canvasRenderer6 = yourDrop2.GetComponent<CanvasRenderer>();
-        canvasRenderer6.cull = true;
-
-        CanvasRenderer canvasRenderer7 = yourCanvas.GetComponent<CanvasRenderer>();
-        canvasRenderer7.cull = true;
-
-        CanvasRenderer canvasRenderer8 = yourString.GetComponent<CanvasRenderer>();
-        canvasRenderer8.cull = true;
-
-        CanvasRenderer canvasRenderer999 = yourX.GetComponent<CanvasRenderer>();
-        canvasRenderer999.cull = true;*/
-
-        //disableCanvas.SetActive(false);
-
 
         Button btn = yourButton.GetComponent<Button>();
         btn.onClick.AddListener(TaskOnClick);
@@ -63,7 +33,7 @@ public class TrialButtonCircle : MonoBehaviour
 
         if (clicked == true)
         {
-            Debug.Log("TITE");
+            Debug.Log("HIDE");
             CanvasRenderer canvasRenderer1 = yourDraggable1.GetComponent<CanvasRenderer>();
             canvasRenderer1.cull = true;
 
@@ -93,7 +63,7 @@ public class TrialButtonCircle : MonoBehaviour
         }
         else if(clicked == false)
         {
-            Debug.Log("PEPE");
+            Debug.Log("SHOW");
             CanvasRenderer canvasRenderer1 = yourDraggable1.GetComponent<CanvasRenderer>();
             canvasRenderer1.cull = false;
 
@@ -128,6 +98,9 @@ public class TrialButtonCircle : MonoBehaviour
     void TaskOnClick()
     {
         Debug.Log("You have clicked the buttonCircle!");
+
+
+
         //disableCanvas.SetActive(true);
         //GameObject.Find("ButtonX").transform.localScale = new Vector3(1, (float)2.9, 1);
         //GameObject.Find("DraggableSlots").transform.localScale = new Vector3(1, 1, 1);
